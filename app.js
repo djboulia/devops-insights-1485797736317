@@ -25,6 +25,7 @@ app.use('/api/v1/', apiv1.router);
 var http = require('http');
 var server = http.createServer(app);
 server.listen(port, function () {
+    console.log('IBM Bluemix app');
     console.log('Weather Report listening on ' + url);
 });
 
